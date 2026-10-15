@@ -15,6 +15,10 @@ Route::get('/lat', function () {
     return view('latihan');
 });
 
+Route::get('name', function () {
+    return view('nama', ['sebuah_nama' => 'Azif']);
+});
+
 // Route::get('/buku', function () {
 //     return view('buku');
 // });
